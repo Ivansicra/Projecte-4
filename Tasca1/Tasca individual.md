@@ -37,7 +37,7 @@ Còpia de sguretat offline → disc dur extern guardat en un lloc diferent (i de
 
 
 
-## Esquema 3-2-1 de Còpies (Proposta)
+## Fase 2: Esquema 3-2-1 de Còpies
 
 | **Element**                | **Proposta de la Parella**                                                                 | **Justificació**                                                                 |
 |---------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Còpia de sguretat offline → disc dur extern guardat en un lloc diferent (i de
 
 ---
 
-### ✅ Esquema 3-2-1
+### Esquema 3-2-1
 - **3 còpies**: Original + còpia local + còpia al núvol.
 - **2 mitjans**: Disc local (NAS) + Cloud.
 - **1 fora de lloc**: Núvol.
