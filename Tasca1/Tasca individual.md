@@ -34,3 +34,28 @@ Còpia de seguretat principal → NAS a l’empresa.
 Còpia de seguretat externa → al Cloud.
 
 Còpia de sguretat offline → disc dur extern guardat en un lloc diferent (i desconnectat sempre).
+
+
+
+## Esquema 3-2-1 de Còpies (Proposta)
+
+| **Element**                | **Proposta de la Parella**                                                                 | **Justificació**                                                                 |
+|---------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| **Dades Crítiques**       | - Base de dades Comptabilitat/Clients (20 GB)<br>- Documents de Projectes (300 GB)<br>- Carpetes Personals (100 GB) | La base de dades és la més crítica (ús diari i RTO/RPO estrictes). Documents i carpetes són importants però poden tenir RPO 24 h. |
+| **Periodicitat (BD)**     | Cada 4 hores                                                                             | Complim RPO de 4 h per BD crítica.                                             |
+| **Tipus de Còpia (BD)**   | Incremental + còpia completa diària                                                      | Incremental per reduir temps i espai; completa per seguretat.                  |
+| **Mitjà 1 (Local)**       | NAS o disc extern al servidor                                                            | Recuperació ràpida en cas d’avaria local.                                      |
+| **Mitjà 2 (Extern)**      | Núvol (AWS, Azure, Backblaze)                                                            | Protecció davant desastres físics (incendi, robatori).                         |
+
+---
+
+### ✅ Esquema 3-2-1
+- **3 còpies**: Original + còpia local + còpia al núvol.
+- **2 mitjans**: Disc local (NAS) + Cloud.
+- **1 fora de lloc**: Núvol.
+
+---
+
+### Flux de Còpies
+- **Servidor Ubuntu** → **NAS Local** (diària + BD cada 4 h)
+- **Servidor Ubuntu** → **Cloud** (setmanal completa + incrementals diàries)
