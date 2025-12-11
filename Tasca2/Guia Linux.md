@@ -67,14 +67,16 @@
 
 ## 12. A la hora de realitzar la còpia només còpia el fitxer nou i el posa juntament amb els demés, això es diu "còpia incremental".
 
-![Captura 2](img/115.png)
+![Captura 2](img/116.png)
+
+
 
 ## 13. Creem l'escript per a realitzar la còpia de seguretat automatica, i li dono permisos d'execució.
 
-![Captura 2](img/116.png)
+![Captura 2](img/117.png)
 
 
 
 ## 14. Configuro el Cron per a que s'executi entre els dies i hores que jo demani (de dilluns a les 11:00pm a dissabte a les 11:00pm).
 
-![Captura 2](img/117.png)
+![Captura 2](img/118.png)
