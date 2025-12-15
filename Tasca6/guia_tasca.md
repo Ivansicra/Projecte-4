@@ -1,4 +1,4 @@
-1. Configruo les dues maquines en xarxa nat.
+1. Configuro les dues màquines en xarxa nat.
 
 ![Captura 12](img/1.png)
 
@@ -6,7 +6,7 @@
 
 
 
-2. Confirguro la maquina client windows i una maquina host Zorin i habilito el sistema de escritori remot.
+2. Configuro la màquina client windows i una màquina host Zorin i habilito el sistema de escriptori remot.
 
 ![Captura 12](img/3.png)
 
@@ -32,12 +32,12 @@
 
 
 
-8. Inicio sessió amb el usuari i contrasenya previament creat des de la maquina windows.
+8. Inicio sessió amb el usuari i contrasenya previament creat des de la màquina windows.
 
 ![Captura 12](img/8.png)
 
 
 
-9. Veig la pantalla de la maquina client Windows desde la la maquina de host Zorin.
+9. Veig la pantalla de la màquina client Windows desde la la màquina de host Zorin.
 
 ![Captura 12](img/9.png)
