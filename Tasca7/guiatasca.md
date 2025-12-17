@@ -18,9 +18,29 @@ Remmina és una eina gratuïta i segura que serveix com a client d’accés remo
 ## Passos per realitzar l’assistència remota
 
 1. Configuro les dues màquines en una xarxa **NAT**.
+
+![Captura 2](img/1.png)
+
 2. Configuro la màquina client **Windows** i una màquina host **Zorin** i habilito el sistema d’escriptori remot.
+
+![Captura 2](img/2.png)
+
 3. Creo un usuari que tindrà permisos per accedir remotament.
+
+![Captura 2](img/3.png)
+
 4. Des de **Zorin**, utilitzo **Remmina** per accedir al control remot del sistema.
+
+![Captura 2](img/4.png)
+
 5. Introdueixo un nom d’usuari.
+
+![Captura 2](img/5.png)
+
 6. Inicio sessió amb l’usuari i la contrasenya prèviament creats des de la màquina Windows.
+
+![Captura 2](img/6.png)
+
 7. Visualitzo la pantalla de la màquina client **Windows** des de la màquina host **Zorin**.
+
+![Captura 2](img/7.png)
